@@ -11,15 +11,19 @@
 		<body>
 		<section id="banner">
 			<header>
-				<p id="bannerTitle">Source Filmmaker</p>
+				<a id="banner" href="index.html"><p id="bannerTitle">Source Filmmaker</p></a>
 			</header>
 		</section>
-		<section>
+		<section id="anchor">
 				<a class="anchorPoints" href= "#GraphEditor"> Graph Editor&emsp;</a>
 				<a class="anchorPoints" href="#MotionEditor">Motion Editor&emsp;</a>
 				<a class="anchorPoints" href="#ClipEditor">Clip Editor&emsp;</a>			
 				<a class="anchorPoints" href="#Introduction">Introduction&emsp;</a>	
 		</section>
+		<picture>
+		<source media="(min-width:600px)" srcset="img/sfm-cat.png" >
+		<img class="introcat" src="img/sfm-cat.png" alt="sfm with cat">
+		</picture>
 		<section id="Introduction">
 		<h1 class="introText">Introduction to Source Filmmaker</h1>
 			<p class="introText">
@@ -30,6 +34,8 @@
 			</p>
 		</section>
 		<section id="ClipEditor">
+		<source media="(min-width:600px)" srcset="img/sfm-fire.png" >
+		<img class="clipfire" src="img/sfm-fire.png" alt="Clip-Editing">
 		<h1 class="ClipText">The Clip Editor</h1>
 			<p class="ClipText">
 			The Clip Editor is used in the final production of your animation. You will be able to see your
@@ -39,6 +45,8 @@
 			</p>
 		</section>
 		<section id="MotionEditor">
+		<source media="(min-width:600px)" srcset="img/sfm-dog.png" >
+		<img class="motiondog" src="img/sfm-dog.png" alt="Clip-Editing">
 		<h1 class="MotionText">The Motion Editor</h1>
 		<p class="MotionText">
 		The Motion Editor is one of the two ways you can animate. Many animators primarily use this to
@@ -53,5 +61,11 @@
 		as change facial structure of the individual playermodels within a keyframe.
 		</p>
 		</section>
+		<video width="640" height="360" controls>
+		<source src="vid/mateedge-sfm.mp4" type="video/mp4">
+		Your browser does not support MP4 Files. 
+		</video>
+		
+		<script type="text/javascript" src="js/modernizr-custom.js"></script> 
 		</body>
 </html>
