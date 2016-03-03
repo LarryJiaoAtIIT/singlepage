@@ -1,4 +1,7 @@
-section#banner{
+body{
+	background-color:#1A1A1A;
+}
+section#banner{ /* Top Banner */
 	margin: 0px auto;
 	height:5em;
 	background: -webkit-linear-gradient(#ad9a6d,#2d2d2d);
@@ -10,19 +13,36 @@ section#banner{
 p#bannerTitle{
 	font-family:"Source Sans Pro",sans-serif;
 	font-weight:bold;
-	color:#403928;
+	color:#e8e8e8	;
 	text-align:center;
-		font-size:3em;	
+	font-size:3em;	
+
+}
+h1.introText{
+	padding-top:2em;
 	
 }
-body{
-	background-color:#1A1A1A;
+h1.introText, h1.ClipText, h1.MotionText, h1.GraphText{
+	font-family:"Oxygen",sans-serif;
+	color:white;
+	font-size:3em;
+	padding-bottom:1em;
+	
+	
+}
+p.introText, p.ClipText, p.MotionText, p.GraphText{
+	font-family:"Oxygen",sans-serif;
+	color:white;
+	font-size:2em;
+	padding-bottom:6em;
 }
 
-a{
+
+a.anchorPoints{
 	font-family:"Oxygen",sans-serif;
 	font-size:1em;
 	text-decoration:none;
+	background-color:#141414;
 	color:gray;
 	float:right;
 }
