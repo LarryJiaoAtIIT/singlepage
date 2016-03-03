@@ -3,43 +3,52 @@ body{
 }
 section#banner{ /* Top Banner */
 	margin: 0px auto;
-	height:5em;
+	height:4em;
 	background: -webkit-linear-gradient(#ad9a6d,#2d2d2d);
 	background: -o-linear-gradient(#ad9a6d,#2d2d2d); 
 	background: -moz-linear-gradient(#ad9a6d,#2d2d2d);
 	background: linear-gradient(#ad9a6d,#2d2d2d); 
-	
+	width:100%;
+	position:fixed;
 }
-p#bannerTitle{
+header{
 	font-family:"Source Sans Pro",sans-serif;
 	font-weight:bold;
-	color:#e8e8e8	;
+	color:#e8e8e8;
 	text-align:center;
 	font-size:3em;	
-
 }
-h1.introText{
-	padding-top:2em;
+section#anchor{
+	font-family:"Source Sans Pro",sans-serif;
+	padding-bottom:10em;
+	width:100%;
+	position:fixed;
+	top:4em;
 	
 }
+
 h1.introText, h1.ClipText, h1.MotionText, h1.GraphText{
-	font-family:"Oxygen",sans-serif;
+	font-family:"Source Sans Pro",sans-serif;
 	color:white;
 	font-size:3em;
+	padding-left:1em;
+	padding-top:10em;
 	padding-bottom:1em;
 	
 	
 }
 p.introText, p.ClipText, p.MotionText, p.GraphText{
-	font-family:"Oxygen",sans-serif;
+	font-family:"Source Sans Pro",sans-serif;
 	color:white;
 	font-size:2em;
+	width:68%;
+	padding-left:1.5em;
 	padding-bottom:6em;
 }
 
 
 a.anchorPoints{
-	font-family:"Oxygen",sans-serif;
+	font-family:"Source Sans Pro",sans-serif;
 	font-size:1em;
 	text-decoration:none;
 	background-color:#141414;
