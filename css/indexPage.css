@@ -1,0 +1,28 @@
+section#banner{
+	margin: 0px auto;
+	height:5em;
+	background: -webkit-linear-gradient(#ad9a6d,#2d2d2d);
+	background: -o-linear-gradient(#ad9a6d,#2d2d2d); 
+	background: -moz-linear-gradient(#ad9a6d,#2d2d2d);
+	background: linear-gradient(#ad9a6d,#2d2d2d); 
+	
+}
+p#bannerTitle{
+	font-family:"Source Sans Pro",sans-serif;
+	font-weight:bold;
+	color:#403928;
+	text-align:center;
+		font-size:3em;	
+	
+}
+body{
+	background-color:#1A1A1A;
+}
+
+a{
+	font-family:"Oxygen",sans-serif;
+	font-size:1em;
+	text-decoration:none;
+	color:gray;
+	float:right;
+}
