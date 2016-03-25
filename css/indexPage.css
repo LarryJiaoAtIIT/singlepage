@@ -14,31 +14,52 @@ table{border-collapse:collapse;border-spacing:0}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
 input,select{vertical-align:middle}
 /*	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	*/
-section#box{
-	background-color:#2b2b2b;
-	box-shadow: 1em 1em #141414;
+html,body{
+	background-color:#2d2d2d;
 	font-family:"Source Sans Pro", Arial, sans-serif;
-	color:#F2F0F0;
-	
+	text-decoration:none;
 }
 img, video{
-	min-width:5em;
+	min-width:15em;
 	max-width:45%;
+	display:block;
 	height:auto;
-	
 }
+/*		Fixed Banner		*/
+
 section#banner{ /* Top Banner */
-	height:4em;	/* Size of banner */
+	height:5em;	/* Size of banner */
 	background: -webkit-linear-gradient(#ad9a6d,#2d2d2d);
 	background: -o-linear-gradient(#ad9a6d,#2d2d2d); 
 	background: -moz-linear-gradient(#ad9a6d,#2d2d2d);
 	background: linear-gradient(#ad9a6d,#2d2d2d); 
 	box-shadow:1px 1px black;
 	width:100%;
-	position:center;
+	text-decoration:none;
 	z-index:3;
 }
 section#anchor{
-	height:1.5em;
+	background-color:#141414;
+	text-align:right;
+	margin-top: 1.5em;
+	opacity:0.85;
 	z-index:3;
 }
+p.bannerTitle{
+	text-align:center;
+	font-size:2.5em;
+	color:#F2F0F0;
+}
+a.anchorPoints, a.bannerTitle{
+	text-decoration:none;
+	color:#F2F0F0;
+}
+/*	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-*/
+
+section#box{		/*Grouped Sections*/
+	background-color:#2b2b2b;
+	box-shadow: 1em 0 1em 0 #141414;
+	margin-top: 0.5em;
+	color:#F2F0F0;
+}
+

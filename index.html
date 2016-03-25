@@ -10,15 +10,16 @@
 		<body>
 		<section id="banner">
 			<header>
-				<a id="banner" href="index.html"><p id="bannerTitle">Source Filmmaker</p></a>
+				<a id="banner" href="index.html"><p class="bannerTitle">Source Filmmaker</p></a>
 			</header>
-		</section>
-		<section id="anchor">
+			<section id="anchor">
 				<a class="anchorPoints" href= "#GraphEditor"> Graph Editor&emsp;</a>
 				<a class="anchorPoints" href="#MotionEditor">Motion Editor&emsp;</a>
 				<a class="anchorPoints" href="#ClipEditor">Clip Editor&emsp;</a>			
 				<a class="anchorPoints" href="#Introduction">Introduction&emsp;</a>	
+			</section>
 		</section>
+		<section id="box">
 		<picture>
 		<source media="(min-width:600px)" srcset="img/sfm-cat.png" >
 		<img class="introcat" src="img/sfm-cat.png" alt="sfm with cat">
@@ -53,6 +54,10 @@
 		</p>
 		</section>
 		<section id="GraphEditor">
+			<video width="640" height="360" controls>
+			<source src="vid/mateedge-sfm.mp4" type="video/mp4">
+			Your browser does not support MP4 Files. 
+			</video>
 		<h1 class="GraphText">The Graph Editor</h1>
 		<p class="GraphText">
 		The Graph Editor is the second of the two ways you can animate. With the graph editor, you can provide
@@ -60,11 +65,9 @@
 		as change facial structure of the individual playermodels within a keyframe.
 		</p>
 		</section>
-		<video width="640" height="360" controls>
-		<source src="vid/mateedge-sfm.mp4" type="video/mp4">
-		Your browser does not support MP4 Files. 
-		</video>
+		
 		
 		<script type="text/javascript" src="js/modernizr-custom.js"></script> 
+		</section>
 		</body>
 </html>
