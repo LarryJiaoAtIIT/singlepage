@@ -16,7 +16,7 @@ input,select{vertical-align:middle}
 /*	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	*/
 
 html,body{
-	background-color:#2d2d2d;
+	background-color:#191919;
 	font-family:"Source Sans Pro", Arial, sans-serif;
 	text-decoration:none;
 }
@@ -26,13 +26,64 @@ img, video{
 	display:block;
 	height:auto;
 }
+img, video,p.introText, p.clipText, p.motionText, p.graphText{
+	padding-top:1em;
+}
 /*	-	-	-	-	-	-	-	Media Queries	-	-	-	-	-	-	-	-	*/
-@media indexPage and (min-width:20em){	/*	320px	*/
-		p.bannerTitle{
-			font-size:50em;
-		}
+@media screen and (min-width:0em) and (max-width:20em){	/* 0px	-	320px	*/
+section#box{
+	background-color:#2b2b2b;
+	font-size:1em;
+	box-shadow: 10px 5px 5px #141414;
+	margin-top: 0.3em;
+	width:100%;
+	color:#F2F0F0;
+	}
+	
+	li{
+	font-size:0.8em;
+	margin-right:0.5em;
+	}
+img{
+	width:100%;
+	height:auto;
+	}
+}
+@media screen and (min-width:20.0625em) and (max-width:30em){	/* 321px	-	480px	*/
+section#box{
+	background-color:#2b2b2b;
+	font-size:1.5em;
+	box-shadow: 10px 5px 5px #141414;
+	margin-top: 0.5em;
+	width:80%;
+	padding: 4em 2em 2em 4em;
+	margin-left: auto;
+	margin-right: auto;
+	color:#F2F0F0;
+	}
+	li{
+	font-size:0.85em;
+	margin-right:0.75em;
+	}
 }
 
+@media screen and (min-width:30.0625em) and (max-width:72em){	/*	481px	-	1152px	*/
+	section#box{
+	background-color:#2b2b2b;
+	font-size:1.5em;
+	box-shadow: 10px 5px 5px #141414;
+	margin-top: 0.5em;
+	width:70%;
+	padding: 5em 3em 3em 5em;
+	margin-left: auto;
+	margin-right: auto;
+	color:#F2F0F0;
+	}
+		li{
+	font-size:1em;
+	margin-right:3.5em;
+	}
+}
 
 /*		Fixed Banner		*/
 
@@ -47,12 +98,16 @@ section#banner{ /* Top Banner */
 	text-decoration:none;
 	z-index:3;
 }
-section#anchor{
+ul#anchor{
 	background-color:#141414;
 	text-align:right;
 	margin-top: 1.5em;
 	opacity:0.85;
 	z-index:3;
+}
+li{
+	display:inline;
+	padding:0.2em;
 }
 p.bannerTitle{
 	text-align:center;
@@ -67,8 +122,14 @@ a.anchorPoints, a.bannerTitle{
 /*	-	-	- Sections after Banner	-	-	-	-	-*/
 section#box{		
 	background-color:#2b2b2b;
-	box-shadow: 1em 0 1em 0 #141414;
+	font-size:1.5em;
+	box-shadow: 10px 5px 5px #141414;
 	margin-top: 0.5em;
+	width:70%;
+	padding: 5em 5em 5em 5em;
+	margin-left: auto;
+	margin-right: auto;
 	color:#F2F0F0;
 }
+
 
